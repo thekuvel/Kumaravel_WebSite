@@ -1,0 +1,26 @@
+
+@keyframes slideLoop {
+    from {
+        transform: translatex(0);
+    }
+    to {
+        transform: translatex(-100%);
+    }
+}
+
+.sliderContainer{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sliderContainer:hover .slider {
+    animation-play-state: paused;
+}
+
+.slider {    
+    animation: 25s slideLoop infinite linear;
+}
+
+.slider a{
+    margin: 0 50px;
+}
