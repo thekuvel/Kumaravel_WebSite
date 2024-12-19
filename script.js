@@ -29,13 +29,15 @@ let projectsData = [
         siteLink: "https://www.aukdon.com"
     },
     {
-        title: "Game Of Domination",
+        title: "Quwad",
         clientName: "Personal",
-        intro: "Tournament and playground hosting application.",
-        description: "A cloud app to host, participate in tournaments and to host and rent playgrounds and venues.",
+        intro: "Application for organizing and registering in tournaments.",
+        description: "A cloud app to organize tournaments and users can register in the tournaments.",
         isGitHub: true,
-        gitFrontEndRepository: "https://github.com/thekuvel/GOD_FrontEnd",
-        gitBackEndRepository:"https://github.com/thekuvel/GOD_FrontEnd",
+        gitFrontEndRepository: "https://github.com/thekuvel/Quwad_Front_End",
+        gitBackEndRepository:"https://github.com/thekuvel/Quwad_Front_End",
+        isHosted: true,
+        siteLink: "https://quwad.com"
     },
     {
         title: "Careerda",
