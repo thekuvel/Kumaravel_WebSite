@@ -92,7 +92,7 @@ projectsData.map((data, index)=>{
     }
 
     let projectCard = `
-    <div class="grid gap-5 bg-[${cardColor[index]}] p-5">
+    <div class="grid gap-5 bg-[${cardColor[index]}] p-5 drop-shadow-md">
        <p>${data.title} - ${data.clientName}</p>
        <p class="text-black/75">
            ${data.intro} <br>
@@ -221,7 +221,7 @@ certificationsArray.map( (data, index) => {
     }
 
     let certificationCard = `
-    <div class="p-5 bg-[${cardColor[index]}] border-none rounded-lg">
+    <div class="p-5 bg-[${cardColor[index]}] border-none rounded-lg drop-shadow-md">
         <p><span class="font-semibold">Title:</span> ${data.title}</p>
         <p><span class="font-semibold">Provider:</span> ${data.provider}</p>
         <p><span class="font-semibold">Year:</span> ${data.year}</p>
