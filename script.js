@@ -7,28 +7,6 @@ sliderContainer.appendChild(sliderCopy);
 
 let projectsData = [
     {
-        title: "BuyHomeNest",
-        clientName: "GUVI",
-        intro: "Real estate listing platform.",
-        description: "A platform to create, list and connect with properties. Agents can communicate with users, create other agents and monitor app.",
-        isGitHub: true,
-        gitFrontEndRepository: "https://github.com/thekuvel/BuyHomeNest-Kumaravel-FrontEnd",
-        gitBackEndRepository:"https://github.com/thekuvel/BuyHomeNest-Kumaravel-BackEnd",
-        isHosted: true,
-        siteLink: "https://buyhomenest.netlify.app"
-    },
-    {
-        title: "Aukdon",
-        clientName: "Personal",
-        intro: "A website for a startup.",
-        description: "A cloud application development company. Developing minimal reliable and scalable applications.",
-        isGitHub: true,
-        gitFrontEndRepository: "https://github.com/Aukdon/aukdon.com",
-        gitBackEndRepository:"https://github.com/Aukdon/aukdon.com",
-        isHosted: true,
-        siteLink: "https://www.aukdon.com"
-    },
-    {
         title: "Quwad",
         clientName: "Personal",
         intro: "Application for organizing and registering in tournaments.",
@@ -40,23 +18,46 @@ let projectsData = [
         siteLink: "https://quwad.com"
     },
     {
+        title: "BuyHomeNest",
+        clientName: "GUVI",
+        intro: "Real estate listing platform.",
+        description: "A platform to create, list and connect with properties. Agents can communicate with users, create other agents and monitor app.",
+        isGitHub: true,
+        gitFrontEndRepository: "https://github.com/thekuvel/BuyHomeNest-Kumaravel-FrontEnd",
+        gitBackEndRepository:"https://github.com/thekuvel/BuyHomeNest-Kumaravel-BackEnd",
+        isHosted: true,
+        siteLink: "https://buyhomenest.netlify.app"
+    },
+    // {
+    //     title: "Aukdon",
+    //     clientName: "Personal",
+    //     intro: "A website for a startup.",
+    //     description: "A cloud application development company. Developing minimal reliable and scalable applications.",
+    //     isGitHub: true,
+    //     gitFrontEndRepository: "https://github.com/Aukdon/aukdon.com",
+    //     gitBackEndRepository:"https://github.com/Aukdon/aukdon.com",
+    //     isHosted: true,
+    //     siteLink: "https://www.aukdon.com"
+    // },
+    {
         title: "Careerda",
         clientName: "Personal",
-        intro: "A b2b application.",
-        description: "Single application for the airline employees to create support ticket for all third party services and applications they use.",
+        intro: "A job search application.",
+        description: "Application for employers to post jobs. Leveragin API's to autoatically post jobs in all platforms.",
         isGitHub: false,
         gitFrontEndRepository: "https://github.com/thekuvel",
         gitBackEndRepository:"",
+        isHosted: false,
     },
-    {
-        title: "Requirement gathering application",
-        clientName: "IBM",
-        intro: "A b2b application.",
-        description: "Single application for the airline employees to create configuration and issue request for the applications they use.",
-        isGitHub: false,
-        gitFrontEndRepository: "#",
-        gitBackEndRepository:"",
-    }
+    // {
+    //     title: "Requirement gathering application",
+    //     clientName: "IBM",
+    //     intro: "A b2b application.",
+    //     description: "Single application for the airline employees to create configuration and issue request for the applications they use.",
+    //     isGitHub: false,
+    //     gitFrontEndRepository: "#",
+    //     gitBackEndRepository:"",
+    // }
 ]
 
 cardColor = ["#E7F3F8","#FDEBEC", "#EDF3EC", "#FBF3DB"];
