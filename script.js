@@ -44,10 +44,11 @@ let projectsData = [
         clientName: "Personal",
         intro: "A job search application.",
         description: "Application for employers to post jobs. Leveragin API's to autoatically post jobs in all platforms.",
-        isGitHub: false,
-        gitFrontEndRepository: "https://github.com/thekuvel",
-        gitBackEndRepository:"",
-        isHosted: false,
+        isGitHub: true,
+        gitFrontEndRepository: "https://github.com/thekuvel/CareerDA_Frontend",
+        gitBackEndRepository:"https://github.com/thekuvel/CareerDA_Backend",
+        isHosted: true,
+        siteLink: "https://careerda.netlify.app/"
     },
     // {
     //     title: "Requirement gathering application",
