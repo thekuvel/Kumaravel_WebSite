@@ -50,15 +50,17 @@ let projectsData = [
         isHosted: true,
         siteLink: "https://careerda.netlify.app/"
     },
-    // {
-    //     title: "Requirement gathering application",
-    //     clientName: "IBM",
-    //     intro: "A b2b application.",
-    //     description: "Single application for the airline employees to create configuration and issue request for the applications they use.",
-    //     isGitHub: false,
-    //     gitFrontEndRepository: "#",
-    //     gitBackEndRepository:"",
-    // }
+    {
+        title: "ToDo application",
+        clientName: "Personal",
+        intro: "A simple todo task application.",
+        description: "To do task application, for quick task tracking.",
+        isGitHub: true,
+        gitFrontEndRepository: "https://github.com/thekuvel/ToDo_Frontend",
+        gitBackEndRepository:"https://github.com/thekuvel/ToDo_Backend",
+        isHosted: true,
+        siteLink: "https://todoappbykuvel.netlify.app/"
+    }
 ]
 
 cardColor = ["#E7F3F8","#FDEBEC", "#EDF3EC", "#FBF3DB"];
