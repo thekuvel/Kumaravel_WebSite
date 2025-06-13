@@ -15,7 +15,8 @@ let projectsData = [
         gitFrontEndRepository: "https://github.com/thekuvel/Quwad_Front_End",
         gitBackEndRepository:"https://github.com/thekuvel/Quwad_Front_End",
         isHosted: true,
-        siteLink: "https://quwad.com"
+        siteLink: "https://quwad.com",
+        projectImage: "./assets/images/Quwad_1_TournamentList.png"
     },
     {
         title: "BuyHomeNest",
@@ -26,7 +27,8 @@ let projectsData = [
         gitFrontEndRepository: "https://github.com/thekuvel/BuyHomeNest-Kumaravel-FrontEnd",
         gitBackEndRepository:"https://github.com/thekuvel/BuyHomeNest-Kumaravel-BackEnd",
         isHosted: true,
-        siteLink: "https://buyhomenest.netlify.app"
+        siteLink: "https://buyhomenest.netlify.app",
+        projectImage: "./assets/images/BuyHomeNest_1_PropertyList.png"
     },
     // {
     //     title: "Aukdon",
@@ -37,18 +39,20 @@ let projectsData = [
     //     gitFrontEndRepository: "https://github.com/Aukdon/aukdon.com",
     //     gitBackEndRepository:"https://github.com/Aukdon/aukdon.com",
     //     isHosted: true,
-    //     siteLink: "https://www.aukdon.com"
+    //     siteLink: "https://www.aukdon.com",
+    //     projectImage: "./assets/images/CareerDA_1_ListOfJobs.png"
     // },
     {
         title: "Careerda",
         clientName: "Personal",
         intro: "A job search application.",
-        description: "Application for employers to post jobs. Leveragin API's to autoatically post jobs in all platforms.",
+        description: "Application for employers to post jobs. Leveragin API's to automatically post jobs in all platforms.",
         isGitHub: true,
         gitFrontEndRepository: "https://github.com/thekuvel/CareerDA_Frontend",
         gitBackEndRepository:"https://github.com/thekuvel/CareerDA_Backend",
         isHosted: true,
-        siteLink: "https://careerda.netlify.app/"
+        siteLink: "https://careerda.netlify.app/",
+        projectImage: "./assets/images/CareerDA_1_ListOfJobs.png"
     },
     {
         title: "ToDo application",
@@ -59,7 +63,8 @@ let projectsData = [
         gitFrontEndRepository: "https://github.com/thekuvel/ToDo_Frontend",
         gitBackEndRepository:"https://github.com/thekuvel/ToDo_Backend",
         isHosted: true,
-        siteLink: "https://todoappbykuvel.netlify.app/"
+        siteLink: "https://todoappbykuvel.netlify.app/",
+        projectImage: "./assets/images/ToDo_1_TaskList.png"
     }
 ]
 
@@ -102,7 +107,10 @@ projectsData.map((data, index)=>{
            ${data.intro} <br>
            ${data.description}
        </p>
-       <div class="grid lg:flex gap-2">
+       <div class="flex justify-center drop-shadow-md">
+            <img class="max-w-[350px]" src="${data.projectImage}" alt="List of jobs image.">
+        </div>
+       <div class="grid justify-center lg:flex gap-2">
         ${data.isGitHub ? gitFrontEndLink : ""}
         ${data.isGitHub ? gitBackEndLink : ""}
         ${data.isHosted ? siteLink : ""}
