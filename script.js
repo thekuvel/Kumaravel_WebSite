@@ -131,40 +131,39 @@ let skillsArray =[
     {
         title: "UI Design",
         description: `
-        I use design tools like Figma to create user-friendly interfaces and implement them seamlessly into full-stack projects. <br>
-        Build visually appealing and functional layouts. <br>
-        Focuses on intuitive navigation and user experience, ensuring websites are easy to use and visually engaging.`,
+        Use design tools like Figma to craft user-friendly interfaces and integrate them seamlessly into full-stack projects. <br/>
+        Build visually appealing, functional layouts with a focus on intuitive navigation and engaging user experiences.`,
         skillList : ["Figma", "Canva", "High fedility design"]
     },
     {
         title: "Front End development",
         description: `
-        Builds dynamic, responsive user interfaces using React, ensuring seamless user experiences. <br>
-        Utilizes state management tools like Redux or Context API to efficiently handle app data and user interactions. <br>
-        Optimizes performance with component reusability.`,
+        Builds dynamic, responsive user interfaces with React, delivering seamless and engaging user experiences. <br/>
+        Leverages state management tools like Redux and Context API to efficiently manage application data and user interactions. <br/>
+        Enhances performance through reusable, modular components.`,
         skillList : ["React JS", "Redux", "Context", "vite"]
     },
     {
         title: "Back End development",
         description: `
-        Develops server-side logic and APIs using technologies like Node.js and Express JS. <br>
-        Using mongoose to interact with MongoDB. <br>
-        Optimizes application performance with local and session storage. <br>
-        Maximise security by protecting backend API with JWT token authentication and bcrypt hashing algorithms.`,
+        Develops robust server-side logic and APIs using Node.js and Express.js. <br/>
+        Utilizes Mongoose for efficient interaction with MongoDB. <br/>
+        Enhances application performance through local and session storage. <br/>
+        Strengthens security by safeguarding APIs with JWT authentication and bcrypt hashing. <br/>`,
         skillList : ["Express JS", "Node JS", "JWT", "bcrypt", "socket.io", "Axios"]
     },
     {
         title: "Database",
         description: `
-        Have experience in using MongoDB as the database for large applications. <br>
-        Also have experience with My SQL database.`,
+        Experienced in using MongoDB to manage data for large-scale applications. <br/>
+        Proficient with MySQL for structured, relational database solutions.`,
         skillList : ["MongoDB", "Atlas", "Mongoose", "MySQL"]
     },
     {
         title: "Cloud",
         description: `
-        Deploys and manages scalable applications using services like netlify and render. <br>
-        Use AWS services like EC2 and S3`,
+        Deploys and manages scalable applications using platforms like Netlify and Render. <br/>
+        Utilizes AWS services such as EC2 for computing and S3 for storage solutions.`,
         skillList : ["AWS", "IBM Cloud"]
     },
 ]
@@ -209,7 +208,7 @@ certificationsArray = [
         year: "2024",
     },
     {
-        title: "AWS",
+        title: "AWS Cloud Practitioner",
         provider: "Amazon",
         year: "2023",
     },
