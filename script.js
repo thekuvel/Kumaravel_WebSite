@@ -43,7 +43,7 @@ let projectsData = [
     //     projectImage: "./assets/images/CareerDA_1_ListOfJobs.png"
     // },
     {
-        title: "Careerda",
+        title: "Career depot application",
         clientName: "Personal",
         intro: "A job search application.",
         description: "Application for employers to post jobs. Leveragin API's to automatically post jobs in all platforms.",
